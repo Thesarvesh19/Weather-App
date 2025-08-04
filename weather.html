@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Weather App</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Kolkata, IN</div>
+                <div class="date">Monday 04 August 2025</div>
+                <div class="time">10:00 AM</div>
+            </section>
+            <div class="weather-container">
+                <div class="icon-container">
+                    <i id="weather-icon" class="fas fa-sun"></i>
+                </div>
+                <div class="current">
+                    <div class="temp">29<span>°c</span></div>
+                    <div class="weather">Sunny</div>
+                    <div class="hi-low">29°c / 28°c</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Developed with <i class="fas fa-heart"></i> by Sarvesh <i class="fas fa-copyright"></i></p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
